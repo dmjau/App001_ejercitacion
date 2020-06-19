@@ -19,9 +19,9 @@ class ReceptorActivity : AppCompatActivity() {
     }
 
     companion object{
-        val EXTRA_KEY_NAME = "com.cursoandroid.appejercitacion001.EXTRA_KEY_name"
-        val EXTRA_KEY_LASTNAME = "com.cursoandroid.appejercitacion001.EXTRA_KEY_lastname"
-        val EXTRA_KEY_AGE = "com.cursoandroid.appejercitacion001.EXTRA_KEY_age"
+        val EXTRA_KEY_NAME = "com.cursoandroid.appejercitacion001.EXTRA_KEY_NAME"
+        val EXTRA_KEY_LASTNAME = "com.cursoandroid.appejercitacion001.EXTRA_KEY_LASTNAME"
+        val EXTRA_KEY_AGE = "com.cursoandroid.appejercitacion001.EXTRA_KEY_AGE"
     }
 
 
