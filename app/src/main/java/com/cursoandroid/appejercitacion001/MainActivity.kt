@@ -18,9 +18,9 @@ class MainActivity : AppCompatActivity() {
         val apellido = txt_lastname_input.text.toString()
         val edad = txt_age_input.text.toString()
         val intent: Intent = Intent(this, ReceptorActivity::class.java).apply {
-            putExtra(ReceptorActivity.EXTRA_KEY_name, nombre)
-            putExtra(ReceptorActivity.EXTRA_KEY_lastname, apellido)
-            putExtra(ReceptorActivity.EXTRA_KEY_age, edad)
+            putExtra(ReceptorActivity.EXTRA_KEY_NAME, nombre)
+            putExtra(ReceptorActivity.EXTRA_KEY_LASTNAME, apellido)
+            putExtra(ReceptorActivity.EXTRA_KEY_AGE, edad)
         }
         startActivity(intent)
     }
