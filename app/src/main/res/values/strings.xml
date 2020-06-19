@@ -5,4 +5,8 @@
     <string name="text_age">Edad:</string>
     <string name="text_button">Enviar</string>
     <string name="text_out"> </string>
+    <string name="text_out_name">"Nombre Ingresado:"</string>
+    <string name="text_out_lastname">"Apellido Ingresado:"</string>
+    <string name="text_out_age">"Edad Ingresada:"</string>
+
 </resources>
